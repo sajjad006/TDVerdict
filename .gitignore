@@ -1,0 +1,21 @@
+# checkpoints & run outputs
+*.pth
+*.pt
+tdverdict_results.json
+early_exit_curve.png
+td_error_localization.png
+qual_real_*
+qual_fake_*
+
+# data
+data/
+processed_dataset*/
+
+# paper PDF (publisher copyright — add deliberately if permitted)
+ICISS2027.pdf
+
+# python / jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
